@@ -1,5 +1,5 @@
-Device configuration for Micromax Lettuce Mini (jalebi)
+Device configuration for YU Yunique (jalebi)
 ==============================
 This device tree supports:
 
-    jalebi (Lettuce Mini - Huaqin variant)
+    jalebi (YU Yunique)
