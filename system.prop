@@ -18,6 +18,7 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 ro.hwui.text_large_cache_height=2048
 
 # Radio
+rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so
 persist.radio.multisim.config=dsds
 ril.ecclist=000,08,100,101,102,110,112,118,119,120,122,911,999
 ril.ecclist1=000,08,100,101,102,110,112,118,119,120,122,911,999
