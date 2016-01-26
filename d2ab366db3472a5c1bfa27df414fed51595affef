@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fcbff3d_3dbc4e04",
+        "filename": "system.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-01-26T12:04:10Z",
+      "side": 1,
+      "message": "r comes after p",
+      "revId": "d2ab366db3472a5c1bfa27df414fed51595affef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
