@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fcbff3d_84772e3b",
+        "filename": "rootdir/etc/init.target.rc",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-01-27T03:28:14Z",
+      "side": 0,
+      "message": "Don\u0027t need to touch this line",
+      "revId": "b58902e7d2faafe6a12d732ff363c362b4a2bc65",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
