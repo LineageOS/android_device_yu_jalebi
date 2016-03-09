@@ -38,10 +38,14 @@ LOCAL_CFLAGS += \
      -fno-short-enums \
      -D_ANDROID_
 
+ifeq ($(QCPATH),)
+LOCAL_CFLAGS += -DOSS_BUILD
+endif
+
 LOCAL_C_INCLUDES:= \
     $(TARGET_OUT_HEADERS)/gps.utils \
     $(TARGET_OUT_HEADERS)/libloc_core \
-    $(call project-path-for,qcom-gps)/loc_api/libloc_api_50001 \
+    $(LOCAL_PATH) \
     $(TARGET_OUT_HEADERS)/libflp
 
 LOCAL_COPY_HEADERS_TO:= libloc_eng/
@@ -90,6 +94,10 @@ LOCAL_CFLAGS += \
 
 ifeq ($(TARGET_USES_QCOM_BSP), true)
 LOCAL_CFLAGS += -DTARGET_USES_QCOM_BSP
+endif
+
+ifeq ($(QCPATH),)
+LOCAL_CFLAGS += -DOSS_BUILD
 endif
 
 ## Includes
