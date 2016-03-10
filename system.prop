@@ -24,6 +24,7 @@ ril.ecclist=000,08,100,101,102,110,112,118,119,120,122,911,999
 ril.ecclist1=000,08,100,101,102,110,112,118,119,120,122,911,999
 ro.config.always_show_roaming=true
 ro.telephony.default_network=9,1
+ro.telephony.ril.config=simactivation
 
 # disable camera debug spam
 persist.camera.hal.debug.mask=0
