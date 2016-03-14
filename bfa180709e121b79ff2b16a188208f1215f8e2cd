@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dfbec78f_bd7cf7b5",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-03-14T22:23:26Z",
+      "side": 1,
+      "message": "Please make a note here in the commit message about the commit ID which the GPS HAL was copied at.",
+      "revId": "bfa180709e121b79ff2b16a188208f1215f8e2cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
