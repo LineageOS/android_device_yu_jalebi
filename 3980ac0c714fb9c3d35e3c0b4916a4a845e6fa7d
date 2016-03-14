@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dfbec78f_3dd567ba",
+        "filename": "rootdir/etc/fstab.qcom",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-03-14T22:19:43Z",
+      "side": 0,
+      "message": "You should leave formattable alone here. That lets vold format the partition if no/invalid filesystem is found on it.",
+      "range": {
+        "startLine": 7,
+        "startChar": 137,
+        "endLine": 7,
+        "endChar": 148
+      },
+      "revId": "3980ac0c714fb9c3d35e3c0b4916a4a845e6fa7d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
