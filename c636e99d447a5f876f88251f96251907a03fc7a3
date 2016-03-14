@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dfbec78f_9d581357",
+        "filename": "sepolicy/camera.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-03-14T22:25:15Z",
+      "side": 1,
+      "message": "These shouldn\u0027t be necessary, your HAL/libraries are likely outdated. mm-qcamerad is supposed to write to /data/camera which is labeled for camera use.",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 45
+      },
+      "revId": "c636e99d447a5f876f88251f96251907a03fc7a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dfbec78f_dd5e8b44",
+        "filename": "sepolicy/system_server.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-03-14T22:25:15Z",
+      "side": 1,
+      "message": "allow system_server sensors_persist_file:dir r_dir_perms;",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 53
+      },
+      "revId": "c636e99d447a5f876f88251f96251907a03fc7a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dfbec78f_3d4a4780",
+        "filename": "sepolicy/system_server.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-03-14T22:25:15Z",
+      "side": 1,
+      "message": "allow system_server sensors_persist_file:file r_file_perms;",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 54
+      },
+      "revId": "c636e99d447a5f876f88251f96251907a03fc7a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
