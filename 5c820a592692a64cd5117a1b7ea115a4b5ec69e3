@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_a135a5f9",
+        "filename": "sepolicy/netd.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-03-21T05:15:25Z",
+      "side": 1,
+      "message": "This looks wrong. What\u0027s the denial?",
+      "revId": "5c820a592692a64cd5117a1b7ea115a4b5ec69e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
