@@ -16,6 +16,24 @@
       "revId": "90a2f375df77a45028c7c08bfd558b2b69fb8bad",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_5cf5aeca",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-04-25T18:20:54Z",
+      "side": 0,
+      "message": "Dropped from the BSP branch, it seems.",
+      "parentUuid": "5faad753_427dca6c",
+      "revId": "90a2f375df77a45028c7c08bfd558b2b69fb8bad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
