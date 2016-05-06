@@ -60,6 +60,7 @@ PRODUCT_PACKAGES += \
 
 # Charger
 ADDITIONAL_DEFAULT_PROPERTIES += \
+    ro.usb.id.midi=90BA \
     ro.usb.id.charge=3011 \
     ro.usb.id.mtp=300B \
     ro.usb.id.mtp_adb=300C \
