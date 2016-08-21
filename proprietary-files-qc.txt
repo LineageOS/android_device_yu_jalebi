@@ -200,6 +200,7 @@ vendor/lib/libqti-perfd-client.so
 # Postprocessing
 bin/mm-pp-daemon
 vendor/lib/libdisp-aba.so
+vendor/lib/libjni_livedisplay.so
 vendor/lib/libmm-abl.so
 vendor/lib/libmm-abl-oem.so
 vendor/lib/libmm-als.so
