@@ -139,5 +139,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libwcnss_qmi
 
+# Browser
+PRODUCT_PACKAGES += \
+    Gello
+
 # Inherit the rest from msm8916-common
 $(call inherit-product, device/cyanogen/msm8916-common/msm8916.mk)
