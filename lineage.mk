@@ -1,4 +1,5 @@
 # Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,13 +15,13 @@
 
 $(call inherit-product, device/yu/jalebi/full_jalebi.mk)
 
-# Inherit some common CM stuff.
+# Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
-PRODUCT_NAME := cm_jalebi
+PRODUCT_NAME := lineage_jalebi
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := jalebi
 
