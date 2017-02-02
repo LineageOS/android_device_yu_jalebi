@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_711ae26f",
+        "filename": "sepolicy/mediacodec.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 9394
+      },
+      "writtenOn": "2017-02-02T18:25:22Z",
+      "side": 1,
+      "message": "I would be interested in seeing this actual denial.  I suspect creating a new type that inherits from firmware_file then tagging with that, as well as changing this, would be a better solution.  Giving mediacodec more access than necessary seems janky.",
+      "revId": "9c1117d24a219a79e95849dbdcf3582526cf87da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
