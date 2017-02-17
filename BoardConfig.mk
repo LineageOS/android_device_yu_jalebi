@@ -53,6 +53,10 @@ endif
 USE_DEVICE_SPECIFIC_GPS := true
 TARGET_NO_RPC := true
 
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_jalebi
+TARGET_RECOVERY_DEVICE_MODULES := libinit_jalebi
+
 # Lights
 BOARD_LIGHTS_VARIANT := aw2013
 TARGET_PROVIDES_LIBLIGHT := true
