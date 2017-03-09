@@ -28,6 +28,9 @@ ro.telephony.default_network=9,9
 # disable camera debug spam
 persist.camera.hal.debug.mask=0
 
+# Don't use monotonic time for video recording
+media.camera.ts.monotonic=0
+
 # use 3 threads max for dex2oat
 ro.sys.fw.dex2oat_thread_count=3
 
