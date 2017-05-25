@@ -86,6 +86,10 @@ etc/firmware/cpp_firmware_v1_4_0.fw
 vendor/lib/libmmcamera_gc2355_blx_ffln_78.so
 vendor/lib/libmmcamera_ov8865_qtech_baly_6c.so
 
+# Data configs - from crackling
+etc/data/dsi_config.xml|c4f6518596a519e9838159b1eaa99fa2ad86e24d
+etc/data/netmgr_config.xml|b2d7410f8f357ca38477d41f012fcc72b8e27cf7
+
 # DRM
 bin/qseecomd
 lib/libdrmdecrypt.so
@@ -168,8 +172,6 @@ vendor/lib/libmm-qdcm.so
 
 # Qualcomm framework
 bin/irsc_util
-etc/data/dsi_config.xml
-etc/data/netmgr_config.xml
 vendor/lib/libdiag.so
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libdsutils.so
