@@ -15,12 +15,12 @@
 $(call inherit-product, device/yu/jalebi/full_jalebi.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
-PRODUCT_NAME := lineage_jalebi
+PRODUCT_NAME := dot_jalebi
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := jalebi
 
