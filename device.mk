@@ -60,7 +60,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
 # Display
 PRODUCT_PACKAGES += \
-    libjni_livedisplay \
+    vendor.lineage.livedisplay@1.0-service-legacymm \
     pp_calib_data_nt35521_dijing_4p7inch_hd_video_panel.xml \
     svi_config.xml
 
